@@ -1,23 +1,23 @@
 {
-  "name": "create-vuepress",
-  "version": "0.0.12",
-  "description": "Scaffolding a VuePress project",
+  "name": "create-vuepress-tmp",
+  "version": "0.0.1",
+  "description": "A fork of create-vuepress",
   "files": [
     "lib",
     "cli.js",
     "index.js"
   ],
   "bin": {
-    "create-vuepress": "cli.js"
+    "create-vuepress-tmp": "cli.js"
   },
   "scripts": {
     "lint": "xo"
   },
   "repository": {
-    "url": "ulivz/create-vuepress",
+    "url": "ludanxer/create-vuepress",
     "type": "git"
   },
-  "author": "ulivz<chl814@foxmail.com>",
+  "author": "ludanxer<ludanxer@icloud.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
