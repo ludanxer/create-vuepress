@@ -4,11 +4,10 @@
   "description": "A fork of create-vuepress",
   "files": [
     "lib",
-    "cli.js",
     "index.js"
   ],
   "bin": {
-    "create-vuepress-tmp": "cli.js"
+    "create-vuepress-tmp": "index.js"
   },
   "scripts": {
     "lint": "xo"
