@@ -26,8 +26,8 @@ if (!semver.satisfies(process.version, '>= 8.0.0')) {
   process.exit(1);
 }
 
-const name = args._[0] || '';
+const targetDir = args._[0] || '';
 run({
-  name,
-  args,
+  targetDir,
+  args
 });
