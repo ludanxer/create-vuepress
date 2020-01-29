@@ -5,6 +5,7 @@ const semver = require('semver');
 const chalk = require('chalk');
 const run = require('./lib/run');
 const { name, version } = require('./package');
+const debug = require('debug');
 // const { existsSync } = require('fs');
 // const { join } = require('path');
 
@@ -19,6 +20,10 @@ if (args.v || args.version) {
   //   console.log(chalk.cyan('@local'));
   // }
   process.exit(0);
+}
+
+if (args.d || args.debug) {
+  debug.enable('create-vuepress:*');
 }
 
 if (!semver.satisfies(process.version, '>= 8.0.0')) {
